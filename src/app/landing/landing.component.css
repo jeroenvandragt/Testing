@@ -41,9 +41,19 @@
 }
 
 .feature {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   background: #fafafa;
   border-radius: 10px;
   padding: 1.5rem;
   width: 250px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
 }
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+

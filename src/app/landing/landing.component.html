@@ -1,22 +1,23 @@
 <div class="landing">
-  <header class="hero">
-    <h1>{{ title }}</h1>
-    <p>{{ subtitle }}</p>
-    <button>Get Started</button>
-  </header>
+    <header class="hero">
+        <h1>{{ title }}</h1>
+        <p>{{ subtitle }}</p>
+        <button>Get Started</button>
+    </header>
 
-  <section class="features">
-    <div class="feature">
-      <h2>⚡ Fast</h2>
-      <p>Built with Angular for speed and performance.</p>
-    </div>
-    <div class="feature">
-      <h2>🎨 Stylish</h2>
-      <p>Easy to style and customize your way.</p>
-    </div>
-    <div class="feature">
-      <h2>🚀 Deployable</h2>
-      <p>Works out of the box with GitHub + Azure Static Web Apps.</p>
-    </div>
-  </section>
+    <section class="features">
+        <a routerLink="/about" class="feature">
+            <h2>⚡ Fast</h2>
+            <p>Built with Angular for speed and performance.</p>
+        </a>
+
+        <a routerLink="/about" class="feature">
+            <h2>🎨 Stylish</h2>
+            <p>Easy to style and customize your way.</p>
+        </a>
+        <a routerLink="/about" class="feature">
+            <h2>🚀 Deployable</h2>
+            <p>Works out of the box with GitHub + Azure Static Web Apps.</p>
+        </a>
+    </section>
 </div>

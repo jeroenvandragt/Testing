@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; // needed if you use ngModel
 
 import { AppRoutingModule } from './app-routing.module'; // 👈 added routing
-import { AppComponent } from './app.component';
+import { AppComponent } from './app/app.component';
 import { LandingComponent } from './landing/landing.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
