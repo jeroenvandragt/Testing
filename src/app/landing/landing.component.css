@@ -1,0 +1,49 @@
+.landing {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #673ab7, #3f51b5);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: #3f51b5;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background: #f0f0f0;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
